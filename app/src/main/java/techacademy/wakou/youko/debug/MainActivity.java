@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         TextView textView = (TextView)findViewById(R.id.textView);
         Log.d("ANDROID",textView.toString());
 
-        textView = null;
+//        textView = null;
         Log.d("ANDROID",textView.toString());
         textView.setText("Hello Android");
     }
